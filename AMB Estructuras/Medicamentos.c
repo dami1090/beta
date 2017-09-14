@@ -61,17 +61,29 @@ void ordenarMedicamentos(eMedicamento lista[], int tam)
                 lista[j]=auxMedicamento;
 
             }
+            else
+            {
+                if(stricmp(lista[i].laboratorio,lista[j].laboratorio)==0)
+                {
+                    if(stricmp(lista[i].descripcion,lista[j].descripcion)>0)
+                    {
+                        auxMedicamento=lista[i];
+                        lista[i]=lista[j];
+                        lista[j]=auxMedicamento;
+                    }
+                }
+            }
         }
     }
 }
 
-void inicializarMedicamentos(eMedicamento lista[], int tam)
+void inicializarMedicamentos(eMedicamento lista[], int tam)//hardcodear
 {
-    int codigo[]={1,2,3};
-    char descripcion[][50]={"Valium","Ibuprofeno","Diclofenac"};
-    float precio[]={5,10,7};
-    char laboratorio[][30]={"Bago","Bayer","Roemer"};
-    int estado[]={1,1,1};
+    int codigo[]={1,2,3,4,5};
+    char descripcion[][50]={"Valium","Ibuprofeno","Diclofenac","ceretide","omeprasol"};
+    float precio[]={5,10,7,8,7};
+    char laboratorio[][30]={"Bago","Bayer","Roemer","montpellier","Bago"};
+    int estado[]={1,1,1,1,1};
 
     int i;
 
@@ -84,8 +96,22 @@ void inicializarMedicamentos(eMedicamento lista[], int tam)
         strcpy(lista[i].laboratorio,laboratorio[i]);
     }
 
-
-
-
 }
+  /* modificarMedicamentos(eMedicamento lista[],int TAM)
+    {
+        printf("ingrese codigo a modificar: ");
+        scanf("%d", &eMedicamento.codigo);
+        int i;
+    for(i=0;i<tam;i++)
+        {
+          if(lista[i].codigo==eMedicamento.codigo)
+           {
+            printf("¿desea modificar?");
 
+           }
+
+        }
+
+
+
+    }*/

@@ -21,4 +21,5 @@ void mostraTodosMedicamentos(eMedicamento[], int);
 void mostrarMedicamento(eMedicamento);
 void ordenarMedicamentos(eMedicamento[], int);
 void inicializarMedicamentos(eMedicamento[], int);
+void modificarMedicamentos(eMedicamento[],int);
 

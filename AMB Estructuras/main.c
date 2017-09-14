@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Medicamentos.h"
-#define TAM 3
+#define TAM 5
 int menu(char[]);
 
 
@@ -31,6 +31,7 @@ int main()
                 ordenarMedicamentos(listaMedicamentos,TAM);
             break;
             case 4:
+              //  modificarMedicamentos(listaMedicamento,TAM);
             break;
             case 5:
             break;
