@@ -97,21 +97,46 @@ void inicializarMedicamentos(eMedicamento lista[], int tam)//hardcodear
     }
 
 }
-  /* modificarMedicamentos(eMedicamento lista[],int TAM)
+   void modificarMedicamentos(eMedicamento lista[],int TAM)
     {
-        printf("ingrese codigo a modificar: ");
-        scanf("%d", &eMedicamento.codigo);
+        int auxInt;
         int i;
-    for(i=0;i<tam;i++)
-        {
-          if(lista[i].codigo==eMedicamento.codigo)
-           {
-            printf("¿desea modificar?");
+        int flag=0;
+        char respuesta;
+        char auxString[50];
 
+        printf("ingrese codigo a modificar: ");
+        scanf("%d", &auxInt);
+
+    for(i=0 ; i<TAM ;i++)
+        {
+          if(auxInt==lista[i].codigo)
+           {
+               flag=1;
+               mostrarMedicamento(lista[i]);
+
+            printf("ingrese nombre de laboratorio:");
+            fflush(stdin);
+            gets(auxString);
+            printf("¿seguro que desea realizar el cambio?");
+            respuesta=getche();
+                if(respuesta=='s')
+                {
+                    printf("\n");
+                    strcpy(lista[i].laboratorio,auxString);
+                }
+                else
+                {
+                    printf("accion cancelada\n");
+                }
+           break;
            }
 
         }
 
 
-
-    }*/
+        if(flag==0)
+        {
+            printf("no existe codigo");
+        }
+    }

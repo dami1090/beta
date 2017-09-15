@@ -31,7 +31,7 @@ int main()
                 ordenarMedicamentos(listaMedicamentos,TAM);
             break;
             case 4:
-              //  modificarMedicamentos(listaMedicamento,TAM);
+                modificarMedicamentos(listaMedicamentos,TAM);
             break;
             case 5:
             break;
