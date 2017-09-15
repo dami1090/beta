@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1505393871 source:c:\users\alumno\desktop\estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Medicamentos.h"
+
+1505393672 c:\users\alumno\desktop\estructuras\medicamentos.h
+
+1505391990 source:c:\users\alumno\desktop\estructuras\medicamentos.c
+	<stdio.h>
+	"Medicamentos.h"
+
+1505394898 source:c:\users\alumno\desktop\amb estructuras\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Medicamentos.h"
+
+1505394898 c:\users\alumno\desktop\amb estructuras\medicamentos.h
+
+1505397382 source:c:\users\alumno\desktop\amb estructuras\medicamentos.c
+	<stdio.h>
+	"Medicamentos.h"
+
+1505437693 source:c:\users\dami\desktop\utn\beta-master\amb estructuras terinar\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Medicamentos.h"
+
+1505387772 c:\users\dami\desktop\utn\beta-master\amb estructuras terinar\medicamentos.h
+
+1505448421 source:c:\users\dami\desktop\utn\beta-master\amb estructuras terinar\medicamentos.c
+	<stdio.h>
+	"Medicamentos.h"
+
+1505477753 source:c:\users\alumno\desktop\beta-master\amb estructuras terinar\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Medicamentos.h"
+
+1505477740 c:\users\alumno\desktop\beta-master\amb estructuras terinar\medicamentos.h
+
+1505475546 source:c:\users\alumno\desktop\beta-master\amb estructuras terinar\medicamentos.c
+	<stdio.h>
+	"Medicamentos.h"
+
