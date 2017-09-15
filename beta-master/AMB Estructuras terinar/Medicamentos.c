@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <conio.h>
 #include "Medicamentos.h"
 
 void cargarMedicamentos(eMedicamento lista[], int t)
@@ -104,10 +106,8 @@ void inicializarMedicamentos(eMedicamento lista[], int tam)//hardcodear
         int flag=0;
         char respuesta;
         char auxString[50];
-
         printf("ingrese codigo a modificar: ");
         scanf("%d", &auxInt);
-
     for(i=0 ; i<TAM ;i++)
         {
           if(auxInt==lista[i].codigo)
@@ -131,10 +131,7 @@ void inicializarMedicamentos(eMedicamento lista[], int tam)//hardcodear
                 }
            break;
            }
-
         }
-
-
         if(flag==0)
         {
             printf("no existe codigo");
@@ -146,7 +143,6 @@ void eliminarMedicamentos(eMedicamento lista[],int TAM)
         int i;
         int flag=0;
         char respuesta;
-        char auxString[50];
 
         printf("ingrese codigo a modificar: ");
         scanf("%d", &auxInt);
@@ -157,8 +153,6 @@ void eliminarMedicamentos(eMedicamento lista[],int TAM)
            {
                flag=1;
                mostrarMedicamento(lista[i]);
-
-
             printf("¿seguro que desea realizar el cambio?");
             respuesta=getche();
                 if(respuesta=='s')
@@ -172,10 +166,7 @@ void eliminarMedicamentos(eMedicamento lista[],int TAM)
                 }
            break;
            }
-
         }
-
-
         if(flag==0)
         {
             printf("no existe codigo");

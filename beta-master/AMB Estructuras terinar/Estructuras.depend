@@ -32,14 +32,18 @@
 	<stdio.h>
 	"Medicamentos.h"
 
-1505477753 source:c:\users\alumno\desktop\beta-master\amb estructuras terinar\main.c
+1505480026 source:c:\users\alumno\desktop\beta-master\amb estructuras terinar\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
+	<conio.h>
 	"Medicamentos.h"
 
-1505477740 c:\users\alumno\desktop\beta-master\amb estructuras terinar\medicamentos.h
+1505479882 c:\users\alumno\desktop\beta-master\amb estructuras terinar\medicamentos.h
 
-1505475546 source:c:\users\alumno\desktop\beta-master\amb estructuras terinar\medicamentos.c
+1505483383 source:c:\users\alumno\desktop\beta-master\amb estructuras terinar\medicamentos.c
 	<stdio.h>
+	<string.h>
+	<conio.h>
 	"Medicamentos.h"
 
