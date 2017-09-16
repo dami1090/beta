@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1505569067 source:c:\users\alumno\desktop\estruc de laboratorio full\lab.c
+	<stdio.h>
+	<stdlib.h>
+
+1505569159 source:c:\users\alumno\desktop\estruc de laboratorio full\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lab.h"
+	<string.h>
+	<conio.h>
+
+1505569067 c:\users\alumno\desktop\estruc de laboratorio full\lab.h
+
